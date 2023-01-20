@@ -6,17 +6,21 @@ a {
     text-decoration: none;
 }
 
-.btn_registrarse {
+.boton {
     margin-top: 20px;
-    margin-right: 20px;
     height: 40px;
     width: 120px;
 }
 
 .btn_iniciar_sesion {
-    margin-top: 20px;
-    height: 40px;
-    width: 120px;
+    @extend .boton;
+    background-color: map-get($colores, colorBotonIniciarSesion);
+}
+
+.btn_registrarse {
+    @extend .boton;
+    margin-right: 20px;
+    background-color: map-get($colores, colorBotonRegistrarse);
 }
 
 .botones {

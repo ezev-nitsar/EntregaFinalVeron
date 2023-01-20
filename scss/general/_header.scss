@@ -5,10 +5,14 @@ header {
 
     .divLogo {
         width: 50%;
-
+        .logoImg {
+            width: 15%;
+            min-width: 150px;
         img {
             padding: 5px;
-            width: 15%;
+            width: 100%;
         }
+        }
+        
     }
 }

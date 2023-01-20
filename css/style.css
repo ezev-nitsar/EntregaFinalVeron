@@ -22,16 +22,17 @@ ul {
 a {
   text-decoration: none; }
 
-.btn_registrarse {
+.boton, .btn_iniciar_sesion, .btn_registrarse {
   margin-top: 20px;
-  margin-right: 20px;
   height: 40px;
   width: 120px; }
 
 .btn_iniciar_sesion {
-  margin-top: 20px;
-  height: 40px;
-  width: 120px; }
+  background-color: #60ec72; }
+
+.btn_registrarse {
+  margin-right: 20px;
+  background-color: #f8755e; }
 
 .botones {
   width: 100px;
@@ -84,9 +85,12 @@ header {
   width: 100%; }
   header .divLogo {
     width: 50%; }
-    header .divLogo img {
-      padding: 5px;
-      width: 15%; }
+    header .divLogo .logoImg {
+      width: 15%;
+      min-width: 150px; }
+      header .divLogo .logoImg img {
+        padding: 5px;
+        width: 100%; }
 
 nav {
   width: 50%; }
@@ -114,7 +118,8 @@ footer {
   align-items: center; }
 
 .mapa_footer {
-  width: 10%; }
+  width: 10%;
+  min-width: 150px; }
 
 .mapa_footer img {
   width: 100%;
